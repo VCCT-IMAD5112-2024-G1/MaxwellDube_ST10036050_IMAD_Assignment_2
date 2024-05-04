@@ -17,15 +17,15 @@ class MainActivity2 : AppCompatActivity() {
         val FeedBtn: Button = findViewById(R.id.feedBtn)
         val CleanBtn: Button = findViewById(R.id.CleanBtn)
         val PlayBtn: Button = findViewById(R.id.PlayBtn)
-        var imageView: ImageView = findViewById(R.id.imageView)
-        var hungryCount: TextView = findViewById(R.id.hungerCount)
+        val imageView: ImageView = findViewById(R.id.imageView)
+        val hungryCount: TextView = findViewById(R.id.hungerCount)
         val cleanCount: TextView = findViewById(R.id.cleanCount)
         val happyCount: TextView = findViewById(R.id.happyCount)
 
 //These are the declarations for the progress bars
-        var hungerPB: ProgressBar = findViewById(R.id.hungerPB)
-        var cleanPB: ProgressBar = findViewById(R.id.cleanPB)
-        var happyPB: ProgressBar = findViewById(R.id.happyPB)
+        val hungerPB: ProgressBar = findViewById(R.id.hungerPB)
+        val cleanPB: ProgressBar = findViewById(R.id.cleanPB)
+        val happyPB: ProgressBar = findViewById(R.id.happyPB)
 //Initializing the count for each progress bar
         var hunCount = 0
         var cleCount = 0
